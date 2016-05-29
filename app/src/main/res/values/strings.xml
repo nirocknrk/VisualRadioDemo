@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Visual Radio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_sharefb">Facebook</string>
+    <string name="action_shareGP">Google+</string>
+
+    <string name="proramelineup_ListHeaderArea">PROGRAME LINEUP</string>
+    <string name="playlist_ListHeaderArea">PLAYLIST</string>
+
+
+    <string name="album_lable_songbar">Album</string>
+    <string name="gender_lable_songbar">Gender</string>
+
+
+
+    <!--splash & about screen-->
+    <string name="splash_developed_by">Developed By:</string>
+    <string name="splash_weblink">www.mimobimedia.com</string>
+    <string name="about_app_version">App Version</string>
+    <string name="about_mStudioMobileApp">mStudio Mobile App V 1.0</string>
+    <string name="copyright_text">Copyright © </string>
+    <string name="copyright_statment">2016 EAP Broadcasting company limited.</string>
+    <string name="all_rights_reserved">All rights reserved.</string>
+
+    <!--navigation window titles-->
+    <string name="nav_proramelineup">PROGRAME LINEUP</string>
+    <string name="nav_playlist">PLAYLIST</string>
+    <string name="nav_requestsong">REQUEST SONG</string>
+    <string name="nav_about">ABOUT</string>
+    <string name="nav_setting">SETTINGS</string>
+    <string name="nav_share">SHARE</string>
+
+    <!--request song -->
+    <string name="Request_Song_title">Request Song</string>
+    <string name="SongsTiltle_requestSong">Song title</string>
+    <string name="yourName_requestSong">Your Name</string>
+    <string name="yourEmail_requestSong">Your Email</string>
+    <string name="yourRequest_requestSong">Your Request</string>
+    <string name="requestBy_requestSong">Request By</string>
+    <string name="requestTo_requestSong">Request To</string>
+    <string name="SongsDedication_requestSong">Song dedication note</string>
+    <string name="Select_show_program_requestSong">Select show / program</string>
+    <string name="Submit_requestSong">Request Now</string>
+
+
+    <!--show details-->
+    <string name="PROGRAME_DETAILS_FRAGMENT_TAG">PROGRAME_DETAILS_FRAGMENT_TAG</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, has ei purto posse evertitur. Vis ex verear fierent, mandamus honestatis eum ad. Vim ne omnes aeterno persius, cu oblique omnesque interesset est. Zril forensibus vel cu, sit populo suscipit volutpat in. Saepe evertitur comprehensam has eu, eos in mutat impetus. Ex iuvaret accusam nominati vel.</string>
+
+
+</resources>

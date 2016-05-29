@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splashLogo"
+        android:src="@mipmap/slpash_logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/splash_deveopBy_textView"
+        android:layout_alignEnd="@+id/splash_deveopBy_textView"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_developed_by"
+        android:id="@+id/splash_deveopBy_textView"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@+id/splash_miLogo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_app_version"
+        android:id="@+id/about_app_version_textView"
+        android:layout_below="@+id/splashLogo"
+        android:layout_alignRight="@+id/splashLogo"
+        android:layout_alignEnd="@+id/splashLogo"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_mStudioMobileApp"
+        android:id="@+id/about_mStudioMobileApp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/about_app_version_textView"
+        android:layout_alignLeft="@+id/splash_mi_webLink"
+        android:layout_alignStart="@+id/splash_mi_webLink"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splash_miLogo"
+        android:layout_marginBottom="125dp"
+        android:src="@mipmap/splash_mobilemedia_logo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_weblink"
+        android:id="@+id/splash_mi_webLink"
+        android:layout_marginTop="35dp"
+        android:layout_alignTop="@+id/splash_miLogo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright_text"
+        android:id="@+id/copyrights"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/splash_mi_webLink"
+        android:layout_alignLeft="@+id/splashLogo"
+        android:layout_alignStart="@+id/splashLogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright_statment"
+        android:id="@+id/copyrightsStatment"
+        android:layout_below="@+id/copyrights"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/all_rights_reserved"
+        android:id="@+id/all_rights_reserved"
+        android:layout_below="@+id/copyrightsStatment"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

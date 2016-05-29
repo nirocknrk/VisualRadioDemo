@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Visual Radio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+
+    <string name="proramelineup_ListHeaderArea">PROGRAME LINEUP</string>
+    <string name="playlist_ListHeaderArea">PLAYLIST</string>
+
+
+    <string name="album_lable_songbar">Album</string>
+    <string name="gender_lable_songbar">Gender</string>
+
+
+
+    <!--splash & about screen-->
+    <string name="splash_developed_by">Developed By:</string>
+    <string name="splash_weblink">www.mimobimedia.com</string>
+    <string name="about_app_version">App Version</string>
+    <string name="about_mStudioMobileApp">mStudio Mobile App V 1.0</string>
+    <string name="copyright_text">Copyright © </string>
+    <string name="copyright_statment">2016 EAP Broadcasting company limited.</string>
+    <string name="all_rights_reserved">All rights reserved.</string>
+
+    <!--navigation window titles-->
+    <string name="nav_proramelineup">PROGRAME LINEUP</string>
+    <string name="nav_playlist">PLAYLIST</string>
+    <string name="nav_about">ABOUT</string>
+    <string name="nav_setting">SETTINGS</string>
+    <string name="nav_share">SHARE</string>
+
+
+</resources>

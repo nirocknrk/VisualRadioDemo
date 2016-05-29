@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:id="@+id/programArea"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.55"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:id="@+id/programHeaderArea"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.50"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/programArtArea"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/imageview_programArt_program_detail"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@mipmap/ic_google_p"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/programTitleArea"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:paddingLeft="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="The Evening Drive"
+                        android:layout_marginBottom="3dp"
+                        android:id="@+id/program_title_program_detail"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="20dp" />
+
+                    <RatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/program_ratingBar_program_detail"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_marginBottom="3dp"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignLeft="@+id/program_title_program_detail"
+                        android:layout_alignStart="@+id/program_title_program_detail"
+                        android:layout_below="@+id/program_title_program_detail"
+                         />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/shareProgram_program_detail"
+                        android:layout_marginBottom="3dp"
+                        android:background="@mipmap/share"
+                        android:layout_below="@+id/program_ratingBar_program_detail"
+                        android:layout_alignLeft="@+id/program_ratingBar_program_detail"
+                        android:layout_alignStart="@+id/program_ratingBar_program_detail" />
+
+                </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/programdescriptionArea_program_detail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="0.50">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp">
+                <TextView
+                    android:id="@+id/textview_programdescription_program_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/dummy_text"/>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/djArea"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:layout_gravity="center_horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/DJHeaderArea"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.60"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:id="@+id/djPictureArea"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/imageview_djPicture_program_detail"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@mipmap/ic_google_p"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/djTitleArea"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="DJ Mark"
+                    android:layout_marginBottom="3dp"
+                    android:id="@+id/dj_name_program_detail"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="25dp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dj_ratingBar_program_detail"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_marginBottom="3dp"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignLeft="@+id/dj_name_program_detail"
+                    android:layout_alignStart="@+id/dj_name_program_detail"
+                    android:layout_below="@+id/dj_name_program_detail"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/djGender_program_detail"
+                    android:layout_marginBottom="3dp"
+                    android:text="Male"
+                    android:layout_below="@+id/dj_ratingBar_program_detail"
+                    android:layout_alignLeft="@+id/dj_ratingBar_program_detail"
+                    android:layout_alignStart="@+id/dj_ratingBar_program_detail" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/DJdescriptionArea_program_detail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="0.40">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/djHobby_program_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Hobby : Arts, Cricket, Foot ball and writing"/>
+            </ScrollView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

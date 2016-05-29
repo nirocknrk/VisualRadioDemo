@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="vrdemo.mi.com.visualradiodemo.PlayerActivity"
+    android:id="@+id/container_playerView"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/playerArea_playerView"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <include
+            layout="@layout/albumart_area_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listHeaderArea"
+        android:orientation="horizontal"
+        android:id="@+id/listHeaderLayout"
+        android:layout_below="@+id/playerArea_playerView"
+        android:background="@color/colorTextBGListHeader"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/playlist_ListHeaderArea"
+            android:id="@+id/listHeader_title"
+            android:textColor="@color/colorTextListHeader"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainListArea_playerView"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/listHeaderLayout">
+        <!--<include-->
+            <!--layout="@layout/playlist_area_fragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+
+    </LinearLayout>
+
+</RelativeLayout>

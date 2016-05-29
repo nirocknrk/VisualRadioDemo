@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/sample_album_art_bg"
+    android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/albumArtImageView"
+        android:layout_gravity="center"
+        android:src="@mipmap/sample_album_art"
+        android:elevation="29dp"
+        />
+
+
+
+
+</RelativeLayout>
